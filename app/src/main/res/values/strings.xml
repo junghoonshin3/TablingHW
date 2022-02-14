@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TablingHW</string>
+    <string name="toolbar_title">관심매장</string>
+    <string name="no_item_btn_title">매장 둘러보기</string>
+    <string name="no_item_title">최근본 매장이 없습니다.</string>
+    <string name="remote_line_up">원격줄서기</string>
+    <string name="reservation">즉시예약</string>
+    <string name="no_wait">대기없음</string>
+    <string name="bottom_home">홈</string>
+    <string name="bottom_searach">검색</string>
+    <string name="bottom_favorite">관심매장</string>
+    <string name="bottom_my">마이</string>
+</resources>

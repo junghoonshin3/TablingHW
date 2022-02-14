@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/favoriteFragment">
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="kr.co.openit.digitaltwin.tablinghw.view.favorite.FavoriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/recentFragment"
+        android:name="kr.co.openit.digitaltwin.tablinghw.view.favorite.RecentFragment"
+        android:label="RecentFragment" />
+    <fragment
+        android:id="@+id/saveFragment"
+        android:name="kr.co.openit.digitaltwin.tablinghw.view.favorite.SaveFragment"
+        android:label="SaveFragment" />
+</navigation>
