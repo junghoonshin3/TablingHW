@@ -6,8 +6,8 @@ interface Source {
 }
 
 interface LocalSource : Source {
-    suspend fun refreshDataRecent(exhibits: List<Recent>)
-    suspend fun refreshDataSave(exhibits: List<Save>)
+    suspend fun refreshDataRecent(recent: List<Recent>)
+    suspend fun refreshDataSave(save: List<Save>)
 }
 
 interface RemoteSource : Source

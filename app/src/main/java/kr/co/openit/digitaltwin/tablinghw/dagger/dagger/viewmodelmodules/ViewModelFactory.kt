@@ -19,5 +19,6 @@ class ViewModelFactory @Inject constructor(private val viewModels: MutableMap<Cl
         }
         throw ExceptionInInitializerError("not assignable class $modelClass")
 
+
     }
 }
